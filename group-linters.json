@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group linters with prettier",
+  "packageRules": [
+    {
+      "groupName": "linters",
+      "extends": "packages:linters",
+      "matchPackageNames": ["prettier"],
+      "matchPackagePatterns": ["^@prettier\\/", "^prettier-plugin-"]
+    }
+  ]
+}

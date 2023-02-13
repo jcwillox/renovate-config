@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+
+    ":prHourlyLimitNone",
+    ":prConcurrentLimit10",
+    ":maintainLockFilesMonthly",
+    ":timezone(Australia/Sydney)",
+
+    ":label(dependencies)",
+    ":semanticCommitTypeAll(build)",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+
+    "schedule:monthly",
+    "npm:unpublishSafe",
+
+    "group:test",
+    "group:postcss",
+    "group:definitelyTyped",
+    "github>jcwillox/renovate-config:group-linters",
+
+    "group:allNonMajor"
+  ]
+}
