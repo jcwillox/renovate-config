@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "trailing",
+  "[json][jsonc][yaml][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
