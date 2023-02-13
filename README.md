@@ -1,6 +1,6 @@
 # Renovate Config
 
-This repository contains my shared [renovate-bot](https://docs.renovatebot.com) configuration for all my projects. You are welcome to use this in your own projects or copy my configurations, though you may want to override the timezone and schedule.
+This repository contains my shared [renovate-bot](https://docs.renovatebot.com) configs for all my projects. You are welcome to use this in your own projects or copy my configurations, though you may want to override the timezone and schedule.
 
 ## Usage
 
