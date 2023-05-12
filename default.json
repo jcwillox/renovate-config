@@ -21,5 +21,12 @@
     "github>jcwillox/renovate-config:group-linters",
 
     "group:allNonMajor"
+  ],
+  "packageRules": [
+    {
+      "groupName": "vueuse monorepo",
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "matchSourceUrls": ["https://github.com/vueuse/vueuse"]
+    }
   ]
 }
