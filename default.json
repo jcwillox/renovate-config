@@ -15,18 +15,13 @@
     "schedule:monthly",
     "npm:unpublishSafe",
 
+    "github>jcwillox/renovate-config:monorepos",
+    "github>jcwillox/renovate-config:group-linters",
+
     "group:test",
     "group:postcss",
     "group:definitelyTyped",
-    "github>jcwillox/renovate-config:group-linters",
 
     "group:allNonMajor"
-  ],
-  "packageRules": [
-    {
-      "groupName": "vueuse monorepo",
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
-      "matchSourceUrls": ["https://github.com/vueuse/vueuse"]
-    }
   ]
 }

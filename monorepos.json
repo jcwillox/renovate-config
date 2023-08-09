@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group additional monorepos",
+  "packageRules": [
+    {
+      "groupName": "vueuse monorepo",
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "matchSourceUrls": ["https://github.com/vueuse/vueuse"]
+    }
+  ]
+}
