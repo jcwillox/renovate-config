@@ -23,5 +23,7 @@
     "group:definitelyTyped",
 
     "group:allNonMajor"
-  ]
+  ],
+  "automergeStrategy": "squash",
+  "transitiveRemediation": true
 }
