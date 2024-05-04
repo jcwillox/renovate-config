@@ -25,5 +25,6 @@
     "group:allNonMajor"
   ],
   "automergeStrategy": "squash",
-  "transitiveRemediation": true
+  "transitiveRemediation": true,
+  "ignoreDeps": ["@unocss/eslint-config"]
 }
